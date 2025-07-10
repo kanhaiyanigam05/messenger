@@ -16,7 +16,8 @@
      "minimum-stability": "stable",
     "require": {
         "php": "^8.2",
-        "illuminate/config": "^12.20.0",
+        "kanhaiyanigam05/messenger": "*",
+  "illuminate/config": "^12.20.0",
         "illuminate/database": "^12.20.0",
         "illuminate/support": "^12.20.0"
     },
@@ -29,10 +30,11 @@
     },
     "autoload": {
         "psr-4": {
-            "kanhaiyanigam05\\Messenger\\": "src/"
+            "App\\": "app/",
+            "Kanhaiyanigam05\\Messenger\\": "vendor/kanhaiyanigam05/messenger/src/"
         }
     },
-    "autoload-dev": {
+ "autoload-dev": {
         "psr-4": {
             "kanhaiyanigam05\\Messenger\\Tests\\": "tests/"
         }
