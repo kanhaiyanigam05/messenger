@@ -16,7 +16,6 @@
      "minimum-stability": "stable",
     "require": {
         "php": "^8.2",
-        "kanhaiyanigam05/messenger": "*",
   "illuminate/config": "^12.20.0",
         "illuminate/database": "^12.20.0",
         "illuminate/support": "^12.20.0"
@@ -31,12 +30,12 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Kanhaiyanigam05\\Messenger\\": "vendor/kanhaiyanigam05/messenger/src/"
+            "Kanhaiyanigam05\\Messenger\\": "src/"
         }
     },
  "autoload-dev": {
         "psr-4": {
-            "kanhaiyanigam05\\Messenger\\Tests\\": "tests/"
+            "Kanhaiyanigam05\\Messenger\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -53,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "kanhaiyanigam05\\Messenger\\MessengerServiceProvider"
+                "Kanhaiyanigam05\\Messenger\\MessengerServiceProvider"
             ]
         }
     }
