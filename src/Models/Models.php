@@ -2,6 +2,7 @@
 
 namespace Kanhaiyanigam05\Messenger\Models;
 
+
 use Illuminate\Database\Eloquent\Model;
 use Kanhaiyanigam05\Messenger\Models\Message;
 use Kanhaiyanigam05\Messenger\Models\Thread;
