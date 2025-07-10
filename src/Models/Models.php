@@ -4,7 +4,7 @@ namespace Kanhaiyanigam05\Messenger\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Models
+class Models extends Model
 {
     /**
      * Map for the messenger's models.
