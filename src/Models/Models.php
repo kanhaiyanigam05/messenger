@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanhaiyanigam05\Messenger\Models\Models;
+namespace Kanhaiyanigam05\Messenger\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
