@@ -3,8 +3,12 @@
 namespace Kanhaiyanigam05\Messenger\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Kanhaiyanigam05\Messenger\Models\Message;
+use Kanhaiyanigam05\Messenger\Models\Thread;
+use Kanhaiyanigam05\Messenger\Models\Participant;
 
-class Models extends Model
+
+class Models
 {
     /**
      * Map for the messenger's models.
