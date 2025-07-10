@@ -2,12 +2,12 @@
 
 namespace Kanhaiyanigam05\Messenger;
 
-use Kanhaiyanigam05\Messenger\Models\Message;
-use Kanhaiyanigam05\Messenger\Models\Models;
-use Kanhaiyanigam05\Messenger\Models\Participant;
-use Kanhaiyanigam05\Messenger\Models\Thread;
-use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Container\BindingResolutionException;
+use Kanhaiyanigam05\Messenger\Models\Models;
+use Kanhaiyanigam05\Messenger\Models\Message;
+use Kanhaiyanigam05\Messenger\Models\Thread;
+use Kanhaiyanigam05\Messenger\Models\Participant;
 
 class MessengerServiceProvider extends ServiceProvider
 {
